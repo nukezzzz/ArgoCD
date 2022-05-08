@@ -11,9 +11,9 @@ spec:
     path: ./environments/beta
   destination:
     server: https://kubernetes.default.svc
-  # syncPolicy:
-  #   syncOptions:
-  #   - CreateNamespace=true
-  #   automated:
-  #     selfHeal: true
-  #     prune: true
+  syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
+    automated:
+      selfHeal: true
+      prune: true
