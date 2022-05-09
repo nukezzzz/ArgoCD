@@ -2,5 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: alpine-app
+  namespace: prod
 spec:
   replicas: 4
