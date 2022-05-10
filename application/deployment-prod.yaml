@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: alpine-app
-  namespace: beta
+  namespace: prod
 spec:
   selector:
     matchLabels:
@@ -17,3 +17,18 @@ spec:
       - name: alpine-app
         image: nginx:1.21
 
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: alpine-app-prod-service
+  namespace: prod
+spec:
+  selector:
+    app: alpine-app
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+  

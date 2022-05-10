@@ -1,5 +1,7 @@
 resources:
   - deployment.yaml
   - service.yaml
+  - namespace.yaml
+  - deployment-prod.yaml
 
   
