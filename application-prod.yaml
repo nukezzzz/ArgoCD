@@ -11,6 +11,7 @@ spec:
     path: ./environments/production
   destination:
     server: https://kubernetes.default.svc
+    namespace: prod
   syncPolicy:
     syncOptions:
     - CreateNamespace=true

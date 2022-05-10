@@ -11,6 +11,7 @@ spec:
     path: ./environments/beta
   destination:
     server: https://kubernetes.default.svc
+    namespace: beta
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
