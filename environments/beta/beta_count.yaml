@@ -4,4 +4,4 @@ metadata:
   name: alpine-app
   namespace: app
 spec:
-  replicas: 3
+  replicas: 5
