@@ -1,12 +1,12 @@
-# apiVersion: v1
-# kind: Namespace
-# metadata:
-#   name: beta
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: beta
 
-# ---
+---
 
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: app
+  name: prod
 
