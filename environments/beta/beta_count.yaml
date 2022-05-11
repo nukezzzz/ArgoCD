@@ -4,4 +4,4 @@ metadata:
   name: alpine-app-beta
   namespace: beta
 spec:
-  replicas: 5
+  replicas: 2
