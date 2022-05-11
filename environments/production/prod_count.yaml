@@ -4,4 +4,4 @@ metadata:
   name: alpine-app-prod
   namespace: prod
 spec:
-  replicas: 4
+  replicas: 2
